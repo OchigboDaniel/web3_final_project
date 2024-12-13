@@ -1,8 +1,31 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
 }
 
 a {
   color: #00B7FF;
+}
+
+.acc {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.showAccount {
+  font-size: 12px;
+}
+
+.container {
+  height: 500px;
+  width: 50%;
+  background-color: #fffcfc;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0, 0.1);
+  text-align: center;
+
 }
